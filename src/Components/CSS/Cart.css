@@ -1,0 +1,58 @@
+.cart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons button {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

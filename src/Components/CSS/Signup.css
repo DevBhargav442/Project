@@ -1,0 +1,41 @@
+.page-container {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  background: green;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.container {
+  text-align: center;
+}
+
+.button {
+  background: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .signup-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .signup-container {
+    width: 50%;
+  }
+}
